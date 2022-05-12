@@ -1,0 +1,136 @@
+Soal Backend 
+
+Instruksi
+- Gunakan Bahasa pemrograman yang kamu suka
+- Upload hasil jawabanmu ke Github lalu tulis instruksi petunjuknya di readme.md agar kami dapat mengerti langkah menjalankannyaa dari local
+- Kirim link githubnya sana ya biar kami yang download
+
+Level 1:
+
+input:
+terdapat sebuah array string, dimana anda diminta untuk mencacah array string tersebut ke dalam sebuah array, 
+dimana jumlah kalimat dalam string tersebut adalah n dan spasi tidak dihitung 
+arrayString = ['budi','bermain','bola', 'di', 'halaman', 'rumah']
+n = 11 (n>=0 && n <= 30)
+
+keterangan: spasi tidak dihitung
+
+ouput:
+array [
+  "budi bermain",
+  "bola di",
+  "halaman",
+  "rumah"
+]
+
+
+Level 2 :
+__________________________________
+|ID |nama | pekerjaan |tunjangan  |
+|1  |Budi | A1        |1000000    |
+|2  |Toni | A2        |2000000    |
+|3  |Anto | A3        |3000000    |
+|4  |Rayi | A3        |4000000    |
+|5  |Siti | A2        |5000000    |
+|6  |Roy  | A1        |8000000    |
+|7  |Rey  | A2        |7000000    |
+|_____________________|___________|
+
+Pekerjaan
+
+______________________________
+|ID  |Pekerjaan |Gaji        |
+|A1  |Programmer|20000000|
+|A2  |Akuntansi |30000000|
+|A3  |Designer  |10000000|
+|____________________________|
+
+Siapa Gaji terbesar di dalam perusahaan?
+
+Level 3:
+
+buatlah program yang berisi input string dimana setiap kurung harus memiliki pembuka dan penutupnya
+keterangah:
+string hanya terdiri dari 3 kurung [], (), {}
+
+input 1:
+string = [](){}
+
+output 1:
+true
+
+input 2:
+string = [(){}]
+
+output 2:
+true
+
+input 3:
+string = [(}]
+
+output 3:
+false
+
+Level 4: 
+terdapat dictionary  yang berisi mengenai kelas, manipulasi data pada dictionary menjadi output yang diinginkan.
+
+input:
+data = {
+'A1':['Akuntansi','Programming', 'Information System','Data Structure'],
+'A2':['Akuntansi','Programming', 'Algorithm','Algorithm II'],
+'A3':['Algorithm II','Algorithm', 'Information System','Data Structure']
+}
+
+output:
+{
+   'A1,A2':['Akutansi','Programming']
+   'A1,A3':['Information System', 'Data Structure']
+   'A2,A3':['Algorithm II','Algorithm']
+}
+
+
+Level 5: 
+Ubah Angka Romawi Menjadi:
+
+Keterangan
+Symbol       Value
+I             1
+V             5
+X             10
+L             50
+C             100
+
+
+Input 1: 
+IV 
+
+Ouput 1:
+4
+
+
+Input 2: 
+LIV 
+
+Ouput 2:
+54
+
+Input 3:
+CXLIX
+
+Output 3:
+149
+
+
+Level 6:
+sorting array hanya untuk angka genap
+
+Input 1 = [ 7,4,7,2,10]
+Output 1 = [ 7, 2, 7, 4, 10]
+
+Input 2 = [7,18,16,12,10]
+Output 2 = [7,10,12,16,18]
+
+Input 3 = [7,20,100,93,18]
+Output 3 = [7,18,20,93,100]
+
+
